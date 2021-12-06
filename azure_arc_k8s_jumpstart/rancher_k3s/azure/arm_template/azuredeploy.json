@@ -333,7 +333,7 @@
         },
         {
           "type": "Microsoft.Compute/virtualMachines/extensions",
-          "name": "[concat(variables('vmName'),'/installscript_k3s')]",
+          "name": "[concat(variables('vmName'),'/installscript_k3s_jge')]",
           "apiVersion": "2019-07-01",
           "location": "[parameters('location')]",
           "dependsOn": [
